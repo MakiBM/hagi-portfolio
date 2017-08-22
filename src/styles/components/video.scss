@@ -1,0 +1,14 @@
+.video {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  height: 140%;
+  width: auto;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.3s opacity;
+
+  &.-active {
+    opacity: 1;
+  }
+}

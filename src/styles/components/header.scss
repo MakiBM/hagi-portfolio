@@ -1,0 +1,47 @@
+.header {
+  $branding-width: 260px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+
+  > * {
+    flex-shrink: 0;
+  }
+
+  > .branding {
+    flex-basis: $branding-width;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 55px;
+    position: relative;
+
+    > .lines {
+      position: absolute;
+      bottom: 0;
+      right: 80px;
+    }
+  }
+
+  > .nav {
+    flex-basis: calc(100% - #{$branding-width} * 2);
+
+    > .link {
+      padding: 10px 20px;
+
+      &.-active {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+
+  > .links {
+    flex-basis: $branding-width;
+  }
+}

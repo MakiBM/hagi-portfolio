@@ -1,0 +1,5 @@
+@import 'video-thumbs';
+
+.gallery-thumbs {
+  @extend .video-thumbs;
+}

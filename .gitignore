@@ -1,0 +1,7 @@
+node_modules
+assets/video
+.tmp
+app.yaml
+
+yarn.lock
+package-lock.json
