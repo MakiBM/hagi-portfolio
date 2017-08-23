@@ -1,6 +1,6 @@
 <figure class="quote">
   <blockquote class="text">
-    “Man has gone out to explore other worlds and other civilizations without having explored his own labyrinth of dark passages and secret chambers, and without finding what lies behind doorways that he himself has sealed.”
+    <?php the_field('quote_text') ?>
   </blockquote>
-  <figcaption class="author"> ― Stanisław Lem, Solaris </figcaption>
+  <figcaption class="author"> ― <?php the_field('quote_author') ?> </figcaption>
 </figure>
